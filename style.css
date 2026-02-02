@@ -480,3 +480,37 @@ body {
   }
 
 }
+@media screen and (max-width: 768px) {
+
+  .home__greeting {
+    font-size: 13px;
+    margin-bottom: 6px;
+    white-space: nowrap;   /* ONE LINE */
+  }
+
+  .home__name {
+    font-size: 30px;       /* smaller so it fits */
+    line-height: 1.1;
+    white-space: nowrap;  /* ONE LINE */
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  .home {
+    padding-top: 80px;   /* move content UP */
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .home {
+    padding-top: 65px;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .home__img {
+    margin-top: 40px;
+  }
+
+}
