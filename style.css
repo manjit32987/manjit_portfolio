@@ -462,3 +462,21 @@ body {
   }
 
 }
+/* ================= REMOVE TOP NAV LINKS ON MOBILE ================= */
+@media screen and (max-width: 768px) {
+
+  .header nav {
+    display: none;
+  }
+
+}
+/* ================= HIDE CREATIVE & DESIGNER TEXT ON MOBILE ================= */
+@media screen and (max-width: 768px) {
+
+  .creative,
+  .home__profession,
+  .hero-right {
+    display: none;
+  }
+
+}
