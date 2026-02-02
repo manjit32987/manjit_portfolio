@@ -364,3 +364,101 @@ body {
     display: none; /* later we can add hamburger */
   }
 }
+@media screen and (max-width: 768px) {
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 110px 20px 60px;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  .home__greeting {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .home__name {
+    font-size: 34px;
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+
+  .home__profession {
+    font-size: 26px;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
+
+  .home__profession span {
+    display: block;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  .home__img {
+    order: 2;
+    width: 220px;
+    margin: 30px auto 0;
+  }
+
+  .home__img img {
+    width: 100%;
+    border-radius: 18px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  .home__social {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    margin-top: 26px;
+  }
+
+  .home__social a {
+    width: 190px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  .header {
+    height: 64px;
+  }
+
+  .nav {
+    padding: 14px 20px;
+  }
+
+  .nav__menu {
+    display: none; /* we’ll add hamburger later */
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  .home::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 0;
+  }
+
+  .home > * {
+    position: relative;
+    z-index: 1;
+  }
+
+}
